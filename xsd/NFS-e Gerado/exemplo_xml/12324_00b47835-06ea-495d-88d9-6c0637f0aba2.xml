@@ -1,0 +1,90 @@
+﻿<rfe_nfse>
+	<chnfse>20190816021299490001110000000000000012324</chnfse>
+	<munger></munger>
+	<nunfse>12324</nunfse>
+	<serienfse></serienfse>
+	<tipo></tipo>
+	<dhemi>2019-08-16T15:58:54-03:00</dhemi>
+	<naturezaoperacao></naturezaoperacao>
+	<regimeespecialtributacao></regimeespecialtributacao>
+	<optantesimples></optantesimples>
+	<competencia>082019</competencia>
+	<discriminacao>E009F001N018445S (SOFTWARE RESPONSAVEL PELA GERACAO HTTP
+		://WWW.GI.COM.BR) PAGAMENTO AO CONTRATADO 6.508 , 08 TAXA DE SERVICOS
+		534, 40 RETENCAO COD.TOMADOR ( - ) CSLL / COFINS/ PIS - 5952 -327 , 47
+		( - ) IRRF - 1708 -70 , 42 ( - ) ISS - 9776 -211,27 ( - ) INSS - 2631
+		-762 , 19 * (VALOR TOTAL NF R$7 . 042 , 48 - DEDUCOES CB R$ 113, 45 =
+		BC RETENCAO INSS R$6 .929, 03) LEI NO 6.321/1976 E; ARTS .124 E 126,
+		1O DA IN RFB NO 971/2009 VALOR APROXIMADO TRIBUTOS (LEI 12 .741) R$1.
+		164, 12 (16,53%) DATA DE VENCIMENTO 02/10/2019 VALOR LIQUIDO DA NOTA
+		R$ 5 . 671, 13 C.C - FINANÇAS - D52705 DADOS DEPOSITO OU
+		TRANSFERÊNCIA: ITAU/AG .8774/C.C-01588-0</discriminacao>
+	<codverificacao>KYQSPZLY</codverificacao>
+	<codservnfse>17.05</codservnfse>
+	<codserv_codtrib_nfse>06491</codserv_codtrib_nfse>
+	<tomadorrazao>IRWIN INDUSTRIAL TOOL FERRAMENTAS DO BRASIL LTDA
+	</tomadorrazao>
+	<tomadorcnpj>90049289000126</tomadorcnpj>
+	<tomadorcpf></tomadorcpf>
+	<prestadorrazao>LIFE RECURSOS HUMANOS LTDA</prestadorrazao>
+	<prestadorcnpj>02129949000111</prestadorcnpj>
+	<prestadorcpf></prestadorcpf>
+	<prestadoruf>SP</prestadoruf>
+	<inscricao>26257041</inscricao>
+	<valorservico>7042.48</valorservico>
+	<valordeducoes>0.00</valordeducoes>
+	<valorpis>45.78</valorpis>
+	<valorcofins>211.27</valorcofins>
+	<valorinss>762.19</valorinss>
+	<valorir>70.42</valorir>
+	<valorcsll>70.42</valorcsll>
+	<issretido>211.27</issretido>
+	<valoriss>0.00</valoriss>
+	<basecalculo>7042.48</basecalculo>
+	<aliquota>0.0000</aliquota>
+	<valorliquido>0.00</valorliquido>
+	<linha_oc></linha_oc>
+	<numero_oc></numero_oc>
+	<tiponfe></tiponfe>
+	<utilizacaofiscal></utilizacaofiscal>
+	<cfopentrada></cfopentrada>
+	<xped></xped>
+	<nitemped></nitemped>
+	<valortotal>7042.48</valortotal>
+	<municipiogerador>SAO PAULO</municipiogerador>
+	<atividade></atividade>
+	<outrasinformacoes>(1) ESTA NFS-E FOI EMITIDA COM RESPAIDO NA LEI NO
+		14.097/2005; (2) O ISS DESTA NFS-E E DEVIDO FORA DO MUNICIPIO DE SAO
+		PAUIO; (3) ESTA NFS-E NAO GERA CREDITO POIS O TOMADOR NAO POSSUI
+		INSCRICAO MUNICIPAI EM SAO PAUIO; (4) ESTA NFS-E SUBSTITUI O RPS NO
+		18445 SERIE A, EMITIDO EM 16/08/2019; (5) O ISS DESTA NFS-E SERA
+		RETIDO PEIO TOMADOR DE SERVICO;</outrasinformacoes>
+	<dt_entrada></dt_entrada>
+	<dt_entrada_reposit>10/4/2019 10:04:13 AM</dt_entrada_reposit>
+	<local_prestacao>CARLOS BARBOSA</local_prestacao>
+	<uf_prestacao></uf_prestacao>
+	<rfe_item_nfse>
+		<chnfse>20190816021299490001110000000000000012324</chnfse>
+		<nitem>1</nitem>
+		<codigo_servico>17.05</codigo_servico>
+		<codigo_servico_cia></codigo_servico_cia>
+		<descricao_servico>E009F001N018445S (SOFTWARE RESPONSAVEL PELA GERACAO
+			HTTP ://WWW.GI.COM.BR) PAGAMENTO AO CONTRATADO 6.508 , 08 TAXA DE
+			SERVICOS 534, 40 RETENCAO COD.TOMADOR ( - ) CSLL / COFINS/ PIS - 5952
+			-327 , 47 ( - ) IRRF - 1708 -70 , 42 ( - ) ISS - 9776 -211,27 ( - )
+			INSS - 2631 -762 , 19 * (VALOR TOTAL NF R$7 . 042 , 48 - DEDUCOES CB
+			R$ 113, 45 = BC RETENCAO INSS R$6 .929, 03) LEI NO 6.321/1976 E; ARTS
+			.124 E 126, 1O DA IN RFB NO 971/2009 VALOR APROXIMADO TRIBUTOS (LEI
+			12 .741) R$1. 164, 12 (16,53%) DATA DE VENCIMENTO 02/10/2019 VALOR
+			LIQUIDO DA NOTA R$ 5 . 671, 13 C.C - FINANÇAS - D52705 DADOS DEPOSITO
+			OU TRANSFERÊNCIA: ITAU/AG .8774/C.C-01588-0</descricao_servico>
+		<qtd_item_servico>1</qtd_item_servico>
+		<valor_unitario>7042.48</valor_unitario>
+		<valor_total>7042.48</valor_total>
+		<tributado></tributado>
+		<status>1</status>
+		<xped></xped>
+		<nitemped></nitemped>
+	</rfe_item_nfse>
+	<total_retencoes>327.47</total_retencoes>
+</rfe_nfse>

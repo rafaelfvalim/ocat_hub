@@ -1,0 +1,76 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rfe_nfse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:integer" name="chnfse"/>
+        <xs:element type="xs:string" name="munger"/>
+        <xs:element type="xs:short" name="nunfse"/>
+        <xs:element type="xs:string" name="serienfse"/>
+        <xs:element type="xs:string" name="tipo"/>
+        <xs:element type="xs:dateTime" name="dhemi"/>
+        <xs:element type="xs:string" name="naturezaoperacao"/>
+        <xs:element type="xs:string" name="regimeespecialtributacao"/>
+        <xs:element type="xs:string" name="optantesimples"/>
+        <xs:element type="xs:int" name="competencia"/>
+        <xs:element type="xs:string" name="discriminacao"/>
+        <xs:element type="xs:string" name="codverificacao"/>
+        <xs:element type="xs:float" name="codservnfse"/>
+        <xs:element type="xs:short" name="codserv_codtrib_nfse"/>
+        <xs:element type="xs:string" name="tomadorrazao"/>
+        <xs:element type="xs:long" name="tomadorcnpj"/>
+        <xs:element type="xs:string" name="tomadorcpf"/>
+        <xs:element type="xs:string" name="prestadorrazao"/>
+        <xs:element type="xs:long" name="prestadorcnpj"/>
+        <xs:element type="xs:string" name="prestadorcpf"/>
+        <xs:element type="xs:string" name="prestadoruf"/>
+        <xs:element type="xs:short" name="inscricao"/>
+        <xs:element type="xs:float" name="valorservico"/>
+        <xs:element type="xs:float" name="valordeducoes"/>
+        <xs:element type="xs:float" name="valorpis"/>
+        <xs:element type="xs:float" name="valorcofins"/>
+        <xs:element type="xs:float" name="valorinss"/>
+        <xs:element type="xs:float" name="valorir"/>
+        <xs:element type="xs:float" name="valorcsll"/>
+        <xs:element type="xs:float" name="issretido"/>
+        <xs:element type="xs:float" name="valoriss"/>
+        <xs:element type="xs:float" name="basecalculo"/>
+        <xs:element type="xs:float" name="aliquota"/>
+        <xs:element type="xs:float" name="valorliquido"/>
+        <xs:element type="xs:string" name="linha_oc"/>
+        <xs:element type="xs:string" name="numero_oc"/>
+        <xs:element type="xs:string" name="tiponfe"/>
+        <xs:element type="xs:string" name="utilizacaofiscal"/>
+        <xs:element type="xs:string" name="cfopentrada"/>
+        <xs:element type="xs:string" name="xped"/>
+        <xs:element type="xs:string" name="nitemped"/>
+        <xs:element type="xs:float" name="valortotal"/>
+        <xs:element type="xs:string" name="municipiogerador"/>
+        <xs:element type="xs:string" name="atividade"/>
+        <xs:element type="xs:string" name="outrasinformacoes"/>
+        <xs:element type="xs:string" name="dt_entrada"/>
+        <xs:element type="xs:string" name="dt_entrada_reposit"/>
+        <xs:element type="xs:string" name="local_prestacao"/>
+        <xs:element type="xs:string" name="uf_prestacao"/>
+        <xs:element name="rfe_item_nfse">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:integer" name="chnfse"/>
+              <xs:element type="xs:byte" name="nitem"/>
+              <xs:element type="xs:float" name="codigo_servico"/>
+              <xs:element type="xs:string" name="codigo_servico_cia"/>
+              <xs:element type="xs:string" name="descricao_servico"/>
+              <xs:element type="xs:byte" name="qtd_item_servico"/>
+              <xs:element type="xs:float" name="valor_unitario"/>
+              <xs:element type="xs:float" name="valor_total"/>
+              <xs:element type="xs:string" name="tributado"/>
+              <xs:element type="xs:byte" name="status"/>
+              <xs:element type="xs:string" name="xped"/>
+              <xs:element type="xs:string" name="nitemped"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:float" name="total_retencoes"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

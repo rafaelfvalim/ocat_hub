@@ -65,6 +65,8 @@ public class Main {
 //		new Main().showFlightList();
 		Server server = Server.getInstance();
 		server.start();
+		
+		
 	}
 	
 }

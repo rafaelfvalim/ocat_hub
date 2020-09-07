@@ -1,0 +1,239 @@
+<cteProc versao="3.00"
+	xmlns="http://www.portalfiscal.inf.br/cte">
+	<CTe xmlns="http://www.portalfiscal.inf.br/cte">
+		<infCte versao="3.00"
+			Id="CTe35200302484555000696570090003928571060378956">
+			<ide>
+				<cUF>35</cUF>
+				<cCT>06037895</cCT>
+				<CFOP>6352</CFOP>
+				<natOp>PRESTACAO DE SERVICO</natOp>
+				<mod>57</mod>
+				<serie>9</serie>
+				<nCT>392857</nCT>
+				<dhEmi>2020-03-09T00:00:00-03:00</dhEmi>
+				<tpImp>1</tpImp>
+				<tpEmis>1</tpEmis>
+				<cDV>6</cDV>
+				<tpAmb>1</tpAmb>
+				<tpCTe>0</tpCTe>
+				<procEmi>0</procEmi>
+				<verProc>4.0</verProc>
+				<cMunEnv>3526902</cMunEnv>
+				<xMunEnv>LIMEIRA</xMunEnv>
+				<UFEnv>SP</UFEnv>
+				<modal>01</modal>
+				<tpServ>0</tpServ>
+				<cMunIni>3503307</cMunIni>
+				<xMunIni>ARARAS</xMunIni>
+				<UFIni>SP</UFIni>
+				<cMunFim>4304804</cMunFim>
+				<xMunFim>CARLOS BARBOSA</xMunFim>
+				<UFFim>RS</UFFim>
+				<retira>1</retira>
+				<indIEToma>1</indIEToma>
+				<toma3>
+					<toma>3</toma>
+				</toma3>
+			</ide>
+			<compl>
+				<Entrega>
+					<semData>
+						<tpPer>0</tpPer>
+					</semData>
+					<semHora>
+						<tpHor>0</tpHor>
+					</semHora>
+				</Entrega>
+				<xObs>SUBCONTRATADA: CRNTRC - 45203024 - TRANSP - DUAR TRANSP E
+					LOGIST LTDA EPP - CNJP -
+					14.717.745/0001-80-------------------------------------------------------------------------------------------------------------------CONTRIBUINTE
+					AUTORIZADO A EFETUAR O PAGAMENTO DO IMPOSTO NO PRAZO PREVISTO NO
+					RICMS,;APENDICE III, SECAO I, ITEM III, CONFORME CONCESSAO NUMERO
+					0540129284</xObs>
+				<ObsCont xCampo="Emissao">
+					<xTexto>17778-TEDE TRANSPORTES LTDA - LIM-LIMEIRA-
+						Digitador:OSMAR09 - RegDest:95180 - Tabela:A/53</xTexto>
+				</ObsCont>
+				<ObsCont xCampo="CD Destino">
+					<xTexto>11 - &gt;&gt;&gt;&gt;&gt;&gt;FRETE NA
+						ENTREGA&lt;&lt;&lt;&lt;&lt;&lt;&lt;</xTexto>
+				</ObsCont>
+				<ObsCont xCampo="Informacao:">
+					<xTexto>Entrega Prevista:10/03/2020</xTexto>
+				</ObsCont>
+				<ObsCont xCampo="Lei da Transparencia">
+					<xTexto>O valor aproximado de tributos incidentes sobre o preco
+						deste servico e de R$ 735,01</xTexto>
+				</ObsCont>
+			</compl>
+			<emit>
+				<CNPJ>02484555000696</CNPJ>
+				<IE>417299977117</IE>
+				<xNome>TEDE TRANSPORTES LTDA</xNome>
+				<xFant>TEDE TRANSPORTES LTDA</xFant>
+				<enderEmit>
+					<xLgr>RODOVIA SP133 KM 1</xLgr>
+					<nro>000</nro>
+					<xBairro>DIST INDUSTRIAL</xBairro>
+					<cMun>3526902</cMun>
+					<xMun>LIMEIRA</xMun>
+					<CEP>13480970</CEP>
+					<UF>SP</UF>
+					<fone>1934042500</fone>
+				</enderEmit>
+			</emit>
+			<rem>
+				<CNPJ>13382864000167</CNPJ>
+				<IE>182117840112</IE>
+				<xNome>ARBUZ QUIMICA LTDA EPP</xNome>
+				<xFant>ARBUZ QUIMICA LTDA EPP</xFant>
+				<fone>1935082000</fone>
+				<enderReme>
+					<xLgr>AV GUERINO TURATTI</xLgr>
+					<nro>410</nro>
+					<xBairro>DIST INDUSTRIAL III</xBairro>
+					<cMun>3503307</cMun>
+					<xMun>ARARAS</xMun>
+					<CEP>13602101</CEP>
+					<UF>SP</UF>
+					<cPais>1058</cPais>
+					<xPais>BRASIL</xPais>
+				</enderReme>
+			</rem>
+			<dest>
+				<CNPJ>90049289000126</CNPJ>
+				<IE>0260001414</IE>
+				<xNome>IRWIN INDUSTRIAL TOOL FERRAMENTAS DO BRASIL LTDA</xNome>
+				<fone>5434619300</fone>
+				<enderDest>
+					<xLgr>AV PRESIDENTE KENNEDY</xLgr>
+					<nro>1049</nro>
+					<xBairro>AURORA</xBairro>
+					<cMun>4304804</cMun>
+					<xMun>CARLOS BARBOSA</xMun>
+					<CEP>95185000</CEP>
+					<UF>RS</UF>
+					<cPais>1058</cPais>
+					<xPais>BRASIL</xPais>
+				</enderDest>
+			</dest>
+			<vPrest>
+				<vTPrest>2882.40</vTPrest>
+				<vRec>2882.40</vRec>
+				<Comp>
+					<xNome>FPESO</xNome>
+					<vComp>2477.79</vComp>
+				</Comp>
+				<Comp>
+					<xNome>FVALOR</xNome>
+					<vComp>91.24</vComp>
+				</Comp>
+				<Comp>
+					<xNome>GRIS</xNome>
+					<vComp>39.92</vComp>
+				</Comp>
+				<Comp>
+					<xNome>PEDAGIO</xNome>
+					<vComp>71.20</vComp>
+				</Comp>
+				<Comp>
+					<xNome>TAXAS</xNome>
+					<vComp>98.27</vComp>
+				</Comp>
+				<Comp>
+					<xNome>OUTROS</xNome>
+					<vComp>100.00</vComp>
+				</Comp>
+				<Comp>
+					<xNome>TAS</xNome>
+					<vComp>3.98</vComp>
+				</Comp>
+			</vPrest>
+			<imp>
+				<ICMS>
+					<ICMS00>
+						<CST>00</CST>
+						<vBC>2882.40</vBC>
+						<pICMS>12.00</pICMS>
+						<vICMS>345.89</vICMS>
+					</ICMS00>
+				</ICMS>
+				<vTotTrib>735.01</vTotTrib>
+			</imp>
+			<infCTeNorm>
+				<infCarga>
+					<vCarga>10035.79</vCarga>
+					<proPred>QUIMICO</proPred>
+					<xOutCat>3</xOutCat>
+					<infQ>
+						<cUnid>01</cUnid>
+						<tpMed>Kg</tpMed>
+						<qCarga>1215.2500</qCarga>
+					</infQ>
+					<infQ>
+						<cUnid>03</cUnid>
+						<tpMed>Un</tpMed>
+						<qCarga>6.0000</qCarga>
+					</infQ>
+				</infCarga>
+				<infDoc>
+					<infNFe>
+						<chave>35200313382864000167550010000028911006098881</chave>
+					</infNFe>
+					<infNFe>
+						<chave>35200313382864000167550010000028991004111765</chave>
+					</infNFe>
+				</infDoc>
+				<infModal versaoModal="3.00">
+					<rodo>
+						<RNTRC>03060748</RNTRC>
+					</rodo>
+				</infModal>
+			</infCTeNorm>
+		</infCte>
+		<infCTeSupl>
+			<qrCodCTe><![CDATA[https://nfe.fazenda.sp.gov.br/CTeConsulta/qrCode?chCTe=35200302484555000696570090003928571060378956&tpAmb=1]]></qrCodCTe>
+		</infCTeSupl>
+		<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<SignedInfo>
+				<CanonicalizationMethod
+					Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+				<SignatureMethod
+					Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+				<Reference
+					URI="#CTe35200302484555000696570090003928571060378956">
+					<Transforms>
+						<Transform
+							Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+						<Transform
+							Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+					</Transforms>
+					<DigestMethod
+						Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+					<DigestValue>tWLhteDGfPKmOKMVA6oR/4X44sA=</DigestValue>
+				</Reference>
+			</SignedInfo>
+			<SignatureValue>JH5yfgEbTDfbTOTCLSDNAK03PrdR/H4j8o1sLES/iWouLFseE6AAfQ9/mKQga7DzLipSOzVDGToOqw02vDURZYC8oj+y5yFFX0EETY7HD5l0fXMXNtzunNcOFQVoekESIkpLNEhnrX6YzxBxoGQpi390HdYDcvc9cLJ+ECY0XUokLi6S98yV+Syx0P+P9Tsj3QemD0jDnSmCKUxzurhaKfz6227bCP3P0Tekd7XRLjxYedbQCcuIy9Z3DSTFqlXhPUEc+WY/GZdrETKrg3jPKwN7UIUmiikunsye9Xp0vtEEVFuP6I4CGOK22e0JBhJxCgZ7/Ix/RO0+rZfP6ih2Gg==
+			</SignatureValue>
+			<KeyInfo>
+				<X509Data>
+					<X509Certificate>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
+					</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</Signature>
+	</CTe>
+	<protCTe versao="3.00">
+		<infProt>
+			<tpAmb>1</tpAmb>
+			<verAplic>SP-CTe-13-01-2020</verAplic>
+			<chCTe>35200302484555000696570090003928571060378956</chCTe>
+			<dhRecbto>2020-03-09T21:40:56-03:00</dhRecbto>
+			<nProt>135201883778997</nProt>
+			<digVal>tWLhteDGfPKmOKMVA6oR/4X44sA=</digVal>
+			<cStat>100</cStat>
+			<xMotivo>Autorizado o uso do CT-e</xMotivo>
+		</infProt>
+	</protCTe>
+</cteProc>
