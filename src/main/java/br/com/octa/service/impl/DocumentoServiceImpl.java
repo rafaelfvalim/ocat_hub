@@ -1,5 +1,7 @@
 package br.com.octa.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +18,17 @@ public class DocumentoServiceImpl implements DocumentoService {
 	@Override
 	public Documento getDocumeto(String chave) {
 		return documentoRepository.findById(chave).orElse(null);
+	}
+
+	@Override
+	public Boolean saveDocumentos(List<Documento> documetos) {
+		try {
+			documentoRepository.saveAll(documetos);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+
 	}
 
 }

@@ -6,13 +6,11 @@ import org.hibersap.bapi.BapiRet2;
 import org.hibersap.configuration.AnnotationConfiguration;
 import org.hibersap.session.Session;
 import org.hibersap.session.SessionManager;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.octa.sap.Flight;
 import br.com.octa.sap.FlightListBapi;
 import br.com.octa.service.FlightService;
-import br.com.octa.service.SAPService;
 
 @Service
 public class FlightServiceImpl implements FlightService {
@@ -33,7 +31,7 @@ public class FlightServiceImpl implements FlightService {
 			showResult(flightList);
 		} finally {
 			session.close();
-		}
+		} 
 	}
 
 	private void showResult(FlightListBapi flightList) {

@@ -6,24 +6,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 
+import br.com.octa.components.AppProperties;
+import br.com.octa.service.FileWatcherService;
 import br.com.octa.service.SAPService;
 
 @SpringBootApplication
 public class OctaApplication {
 
-
-	@Autowired
-	public SAPService sapService;
-	
 	public static void main(String[] args) {
 		SpringApplication.run(OctaApplication.class, args);
 
 	}
 
-	@EventListener(ApplicationReadyEvent.class)
-	public void startSapServer() {
-		sapService.startServer();
-	}
-	
 
 }

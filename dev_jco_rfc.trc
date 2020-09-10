@@ -6,3 +6,314 @@ Error: [1]  >Sun Sep 06 11:06:55,978<    RfcException raised by system [DE2|SAPH
 	error group: 103
 	key: RFC_ERROR_LOGON_FAILURE
 
+
+**** Error file opened at 20200910 171313 Brasilia Time Rel. 3.0.20 (2019-09-05) [721.1311]
+Error:   >Thu Sep 10 17:13:13,567<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: TYPE=A DESTINATION=ABAP_AS_WITH_POOL ASHOST=192.168.79.250 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.79.250:3302' not reached
+TIME        Thu Sep 10 17:13:13 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:13:34,637<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:13:34 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:13:56,709<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:13:56 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:14:18,767<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:14:18 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:14:40,860<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:14:40 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:15:02,925<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:15:02 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     5
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:15:24,996<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:15:24 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:15:57,168<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:15:57 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:17:01,368<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:17:01 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:19:09,850<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:19:09 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     9
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:23:26,854<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:23:26 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     10
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:32:00,584<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:32:00 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     11
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 17:49:04,657<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 17:49:04 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     12
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:   >Thu Sep 10 18:23:13,536<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=JCO_SERVER GWHOST=192.168.79.250 GWSERV=sapgw02
+
+ERROR       partner '192.168.79.250:sapgw02' not reached
+TIME        Thu Sep 10 18:23:13 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     13
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+

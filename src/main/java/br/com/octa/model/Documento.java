@@ -9,9 +9,10 @@ import lombok.Data;
 @Document
 public class Documento {
 	@Id
-	private String id;
 	private String chave;
 	private String tipo;
 	private String status;
-	
+//	private LocalDateTime dataInclusao;
+//	private LocalDateTime dataAleracao;
 }
+	
