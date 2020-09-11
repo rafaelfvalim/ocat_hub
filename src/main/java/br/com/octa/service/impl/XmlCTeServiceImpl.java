@@ -35,7 +35,7 @@ public class XmlCTeServiceImpl implements XmlCteService {
 
 	@Override
 	public String toXml(CteProc cte) throws JAXBException {
-		JAXBContext context = JAXBContext.newInstance("br.inf.portalfiscal.cte");
+		JAXBContext context = JAXBContext.newInstance("br.com.octa.schema.cte");
 		Marshaller marshaller = context.createMarshaller();
 		JAXBElement<CteProc > element = new ObjectFactory().createCteProc(cte);
 		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.FALSE);
