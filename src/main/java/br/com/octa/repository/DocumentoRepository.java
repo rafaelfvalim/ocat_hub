@@ -1,4 +1,4 @@
-package br.com.octa;
+package br.com.octa.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

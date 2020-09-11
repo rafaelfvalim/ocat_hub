@@ -1,13 +1,14 @@
 //
-// Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.8-b130911.1802 
+// Este arquivo foi gerado pela Arquitetura JavaTM para Implementaï¿½ï¿½o de Referï¿½ncia (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2020.09.07 às 01:25:49 PM BRT 
+// Todas as modificaï¿½ï¿½es neste arquivo serï¿½o perdidas apï¿½s a recompilaï¿½ï¿½o do esquema de origem. 
+// Gerado em: 2020.09.07 ï¿½s 01:25:49 PM BRT 
 //
 
 
 package br.com.octa.schema.nfse;
 
+import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlRegistry;
 
 
@@ -51,5 +52,10 @@ public class ObjectFactory {
     public RfeNfse.RfeItemNfse createRfeNfseRfeItemNfse() {
         return new RfeNfse.RfeItemNfse();
     }
+
+	public JAXBElement<RfeNfse> createRfeNfse(RfeNfse nfse) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

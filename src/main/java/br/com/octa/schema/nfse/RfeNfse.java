@@ -1,8 +1,8 @@
 //
-// Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.8-b130911.1802 
+// Este arquivo foi gerado pela Arquitetura JavaTM para Implementaï¿½ï¿½o de Referï¿½ncia (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2020.09.07 às 01:25:49 PM BRT 
+// Todas as modificaï¿½ï¿½es neste arquivo serï¿½o perdidas apï¿½s a recompilaï¿½ï¿½o do esquema de origem. 
+// Gerado em: 2020.09.07 ï¿½s 01:25:49 PM BRT 
 //
 
 
@@ -21,7 +21,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 /**
  * <p>Classe Java de anonymous complex type.
  * 
- * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+ * <p>O seguinte fragmento do esquema especifica o conteï¿½do esperado contido dentro desta classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -251,7 +251,7 @@ public class RfeNfse {
     protected float totalRetencoes;
 
     /**
-     * Obtém o valor da propriedade chnfse.
+     * Obtï¿½m o valor da propriedade chnfse.
      * 
      * @return
      *     possible object is
@@ -275,7 +275,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade munger.
+     * Obtï¿½m o valor da propriedade munger.
      * 
      * @return
      *     possible object is
@@ -299,7 +299,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade nunfse.
+     * Obtï¿½m o valor da propriedade nunfse.
      * 
      */
     public short getNunfse() {
@@ -315,7 +315,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade serienfse.
+     * Obtï¿½m o valor da propriedade serienfse.
      * 
      * @return
      *     possible object is
@@ -339,7 +339,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade tipo.
+     * Obtï¿½m o valor da propriedade tipo.
      * 
      * @return
      *     possible object is
@@ -363,7 +363,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade dhemi.
+     * Obtï¿½m o valor da propriedade dhemi.
      * 
      * @return
      *     possible object is
@@ -387,7 +387,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade naturezaoperacao.
+     * Obtï¿½m o valor da propriedade naturezaoperacao.
      * 
      * @return
      *     possible object is
@@ -411,7 +411,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade regimeespecialtributacao.
+     * Obtï¿½m o valor da propriedade regimeespecialtributacao.
      * 
      * @return
      *     possible object is
@@ -435,7 +435,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade optantesimples.
+     * Obtï¿½m o valor da propriedade optantesimples.
      * 
      * @return
      *     possible object is
@@ -459,7 +459,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade competencia.
+     * Obtï¿½m o valor da propriedade competencia.
      * 
      */
     public int getCompetencia() {
@@ -475,7 +475,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade discriminacao.
+     * Obtï¿½m o valor da propriedade discriminacao.
      * 
      * @return
      *     possible object is
@@ -499,7 +499,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade codverificacao.
+     * Obtï¿½m o valor da propriedade codverificacao.
      * 
      * @return
      *     possible object is
@@ -523,7 +523,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade codservnfse.
+     * Obtï¿½m o valor da propriedade codservnfse.
      * 
      */
     public float getCodservnfse() {
@@ -539,7 +539,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade codservCodtribNfse.
+     * Obtï¿½m o valor da propriedade codservCodtribNfse.
      * 
      */
     public short getCodservCodtribNfse() {
@@ -555,7 +555,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade tomadorrazao.
+     * Obtï¿½m o valor da propriedade tomadorrazao.
      * 
      * @return
      *     possible object is
@@ -579,7 +579,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade tomadorcnpj.
+     * Obtï¿½m o valor da propriedade tomadorcnpj.
      * 
      */
     public long getTomadorcnpj() {
@@ -595,7 +595,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade tomadorcpf.
+     * Obtï¿½m o valor da propriedade tomadorcpf.
      * 
      * @return
      *     possible object is
@@ -619,7 +619,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade prestadorrazao.
+     * Obtï¿½m o valor da propriedade prestadorrazao.
      * 
      * @return
      *     possible object is
@@ -643,7 +643,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade prestadorcnpj.
+     * Obtï¿½m o valor da propriedade prestadorcnpj.
      * 
      */
     public long getPrestadorcnpj() {
@@ -659,7 +659,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade prestadorcpf.
+     * Obtï¿½m o valor da propriedade prestadorcpf.
      * 
      * @return
      *     possible object is
@@ -683,7 +683,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade prestadoruf.
+     * Obtï¿½m o valor da propriedade prestadoruf.
      * 
      * @return
      *     possible object is
@@ -707,7 +707,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade inscricao.
+     * Obtï¿½m o valor da propriedade inscricao.
      * 
      */
     public short getInscricao() {
@@ -723,7 +723,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valorservico.
+     * Obtï¿½m o valor da propriedade valorservico.
      * 
      */
     public float getValorservico() {
@@ -739,7 +739,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valordeducoes.
+     * Obtï¿½m o valor da propriedade valordeducoes.
      * 
      */
     public float getValordeducoes() {
@@ -755,7 +755,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valorpis.
+     * Obtï¿½m o valor da propriedade valorpis.
      * 
      */
     public float getValorpis() {
@@ -771,7 +771,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valorcofins.
+     * Obtï¿½m o valor da propriedade valorcofins.
      * 
      */
     public float getValorcofins() {
@@ -787,7 +787,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valorinss.
+     * Obtï¿½m o valor da propriedade valorinss.
      * 
      */
     public float getValorinss() {
@@ -803,7 +803,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valorir.
+     * Obtï¿½m o valor da propriedade valorir.
      * 
      */
     public float getValorir() {
@@ -819,7 +819,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valorcsll.
+     * Obtï¿½m o valor da propriedade valorcsll.
      * 
      */
     public float getValorcsll() {
@@ -835,7 +835,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade issretido.
+     * Obtï¿½m o valor da propriedade issretido.
      * 
      */
     public float getIssretido() {
@@ -851,7 +851,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valoriss.
+     * Obtï¿½m o valor da propriedade valoriss.
      * 
      */
     public float getValoriss() {
@@ -867,7 +867,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade basecalculo.
+     * Obtï¿½m o valor da propriedade basecalculo.
      * 
      */
     public float getBasecalculo() {
@@ -883,7 +883,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade aliquota.
+     * Obtï¿½m o valor da propriedade aliquota.
      * 
      */
     public float getAliquota() {
@@ -899,7 +899,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valorliquido.
+     * Obtï¿½m o valor da propriedade valorliquido.
      * 
      */
     public float getValorliquido() {
@@ -915,7 +915,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade linhaOc.
+     * Obtï¿½m o valor da propriedade linhaOc.
      * 
      * @return
      *     possible object is
@@ -939,7 +939,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade numeroOc.
+     * Obtï¿½m o valor da propriedade numeroOc.
      * 
      * @return
      *     possible object is
@@ -963,7 +963,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade tiponfe.
+     * Obtï¿½m o valor da propriedade tiponfe.
      * 
      * @return
      *     possible object is
@@ -987,7 +987,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade utilizacaofiscal.
+     * Obtï¿½m o valor da propriedade utilizacaofiscal.
      * 
      * @return
      *     possible object is
@@ -1011,7 +1011,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade cfopentrada.
+     * Obtï¿½m o valor da propriedade cfopentrada.
      * 
      * @return
      *     possible object is
@@ -1035,7 +1035,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade xped.
+     * Obtï¿½m o valor da propriedade xped.
      * 
      * @return
      *     possible object is
@@ -1059,7 +1059,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade nitemped.
+     * Obtï¿½m o valor da propriedade nitemped.
      * 
      * @return
      *     possible object is
@@ -1083,7 +1083,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade valortotal.
+     * Obtï¿½m o valor da propriedade valortotal.
      * 
      */
     public float getValortotal() {
@@ -1099,7 +1099,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade municipiogerador.
+     * Obtï¿½m o valor da propriedade municipiogerador.
      * 
      * @return
      *     possible object is
@@ -1123,7 +1123,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade atividade.
+     * Obtï¿½m o valor da propriedade atividade.
      * 
      * @return
      *     possible object is
@@ -1147,7 +1147,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade outrasinformacoes.
+     * Obtï¿½m o valor da propriedade outrasinformacoes.
      * 
      * @return
      *     possible object is
@@ -1171,7 +1171,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade dtEntrada.
+     * Obtï¿½m o valor da propriedade dtEntrada.
      * 
      * @return
      *     possible object is
@@ -1195,7 +1195,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade dtEntradaReposit.
+     * Obtï¿½m o valor da propriedade dtEntradaReposit.
      * 
      * @return
      *     possible object is
@@ -1219,7 +1219,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade localPrestacao.
+     * Obtï¿½m o valor da propriedade localPrestacao.
      * 
      * @return
      *     possible object is
@@ -1243,7 +1243,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade ufPrestacao.
+     * Obtï¿½m o valor da propriedade ufPrestacao.
      * 
      * @return
      *     possible object is
@@ -1267,7 +1267,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade rfeItemNfse.
+     * Obtï¿½m o valor da propriedade rfeItemNfse.
      * 
      * @return
      *     possible object is
@@ -1291,7 +1291,7 @@ public class RfeNfse {
     }
 
     /**
-     * Obtém o valor da propriedade totalRetencoes.
+     * Obtï¿½m o valor da propriedade totalRetencoes.
      * 
      */
     public float getTotalRetencoes() {
@@ -1310,7 +1310,7 @@ public class RfeNfse {
     /**
      * <p>Classe Java de anonymous complex type.
      * 
-     * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.
+     * <p>O seguinte fragmento do esquema especifica o conteï¿½do esperado contido dentro desta classe.
      * 
      * <pre>
      * &lt;complexType>
@@ -1378,7 +1378,7 @@ public class RfeNfse {
         protected String nitemped;
 
         /**
-         * Obtém o valor da propriedade chnfse.
+         * Obtï¿½m o valor da propriedade chnfse.
          * 
          * @return
          *     possible object is
@@ -1402,7 +1402,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade nitem.
+         * Obtï¿½m o valor da propriedade nitem.
          * 
          */
         public byte getNitem() {
@@ -1418,7 +1418,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade codigoServico.
+         * Obtï¿½m o valor da propriedade codigoServico.
          * 
          */
         public float getCodigoServico() {
@@ -1434,7 +1434,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade codigoServicoCia.
+         * Obtï¿½m o valor da propriedade codigoServicoCia.
          * 
          * @return
          *     possible object is
@@ -1458,7 +1458,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade descricaoServico.
+         * Obtï¿½m o valor da propriedade descricaoServico.
          * 
          * @return
          *     possible object is
@@ -1482,7 +1482,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade qtdItemServico.
+         * Obtï¿½m o valor da propriedade qtdItemServico.
          * 
          */
         public byte getQtdItemServico() {
@@ -1498,7 +1498,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade valorUnitario.
+         * Obtï¿½m o valor da propriedade valorUnitario.
          * 
          */
         public float getValorUnitario() {
@@ -1514,7 +1514,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade valorTotal.
+         * Obtï¿½m o valor da propriedade valorTotal.
          * 
          */
         public float getValorTotal() {
@@ -1530,7 +1530,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade tributado.
+         * Obtï¿½m o valor da propriedade tributado.
          * 
          * @return
          *     possible object is
@@ -1554,7 +1554,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade status.
+         * Obtï¿½m o valor da propriedade status.
          * 
          */
         public byte getStatus() {
@@ -1570,7 +1570,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade xped.
+         * Obtï¿½m o valor da propriedade xped.
          * 
          * @return
          *     possible object is
@@ -1594,7 +1594,7 @@ public class RfeNfse {
         }
 
         /**
-         * Obtém o valor da propriedade nitemped.
+         * Obtï¿½m o valor da propriedade nitemped.
          * 
          * @return
          *     possible object is

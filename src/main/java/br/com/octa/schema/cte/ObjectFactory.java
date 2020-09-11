@@ -1,8 +1,8 @@
 //
-// Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.8-b130911.1802 
+// Este arquivo foi gerado pela Arquitetura JavaTM para Implementaï¿½ï¿½o de Referï¿½ncia (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2020.09.07 às 01:26:52 PM BRT 
+// Todas as modificaï¿½ï¿½es neste arquivo serï¿½o perdidas apï¿½s a recompilaï¿½ï¿½o do esquema de origem. 
+// Gerado em: 2020.09.10 ï¿½s 10:40:39 PM BRT 
 //
 
 
@@ -12,6 +12,8 @@ import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlRegistry;
 import javax.xml.namespace.QName;
+
+import br.com.octa.schema.nfe.TNfeProc;
 
 
 /**
@@ -30,7 +32,7 @@ import javax.xml.namespace.QName;
  */
 @XmlRegistry
 public class ObjectFactory {
-
+	  private final static QName _cteProc_QNAME = new QName("http://www.portalfiscal.inf.br/cte", "cteProc");
     private final static QName _Signature_QNAME = new QName("http://www.w3.org/2000/09/xmldsig#", "Signature");
 
     /**
@@ -1104,5 +1106,15 @@ public class ObjectFactory {
     public JAXBElement<SignatureType> createSignature(SignatureType value) {
         return new JAXBElement<SignatureType>(_Signature_QNAME, SignatureType.class, null, value);
     }
+    
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CteProc }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://www.portalfiscal.inf.br/cte", name = "cteProc")
+    public JAXBElement<CteProc> createCteProc(CteProc value) {
+        return new JAXBElement<CteProc>(_cteProc_QNAME, CteProc.class, null, value);
+    }
+
 
 }
