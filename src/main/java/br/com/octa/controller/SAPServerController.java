@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.octa.service.SAPService;
 
 @RestController
-@RequestMapping("/Server")
+@RequestMapping("/server")
 public class SAPServerController {
 
 	@Autowired

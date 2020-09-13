@@ -1,9 +1,5 @@
 package br.com.octa.teste;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.List;
 
 import org.hibersap.bapi.BapiRet2;
@@ -13,8 +9,6 @@ import org.hibersap.session.SessionManager;
 
 import br.com.octa.sap.Flight;
 import br.com.octa.sap.FlightListBapi;
-import br.com.octa.sap.server.Server;
-import br.com.octa.service.XmlNFeService;
 
 public class Main {
 
@@ -67,10 +61,11 @@ public class Main {
 	}
      
 	public static void main(String[] args) {
-//		new Main().showFlightList();
-		Server server = Server.getInstance();
-		server.start();
 		
+		new Main().showFlightList();
+//		Server server = Server.getInstance();
+//		server.start();
+//		
 		
 	}
 	

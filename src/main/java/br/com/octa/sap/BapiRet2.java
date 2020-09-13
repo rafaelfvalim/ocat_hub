@@ -28,4 +28,29 @@ public class BapiRet2 {
     public String getNumber() { return this.number; }
 
     public String getMessage() { return this.message; }
+
+	@Override
+	public String toString() {
+		return "BapiRet2 [type=" + type + ", id=" + id + ", number=" + number + ", message=" + message + "]";
+	}
+
+	public BapiRet2(char type, String id, String number, String message) {
+		super();
+		this.type = type;
+		this.id = id;
+		this.number = number;
+		this.message = message;
+	}
+	
+	public BapiRet2(org.hibersap.bapi.BapiRet2 ret) {
+		this.type = ret.getType();
+		this.id = ret.getId();
+		this.number = ret.getNumber();
+		this.message = ret.getMessage();
+	}
+	
+	
+	
+    
+   
 }
