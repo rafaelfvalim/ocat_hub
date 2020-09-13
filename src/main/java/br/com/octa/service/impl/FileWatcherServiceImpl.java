@@ -21,7 +21,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.octa.components.AppProperties;
+import br.com.octa.dto.DocumentoDto;
 import br.com.octa.schema.nfe.TNfeProc;
+import br.com.octa.service.DocumentoService;
 import br.com.octa.service.FileWatcherService;
 import br.com.octa.service.XmlNFeService;
 
@@ -34,6 +36,9 @@ public class FileWatcherServiceImpl implements FileWatcherService {
 
 	@Autowired
 	public XmlNFeService xmlNFeService;
+
+	@Autowired
+	public DocumentoService documentoService;
 
 	@Override
 	public void eventFolder() {
@@ -103,6 +108,7 @@ public class FileWatcherServiceImpl implements FileWatcherService {
 			File file = new File(appProperties.getFolderWatch() + "/" + fileName.toString());
 			String xml = FileUtils.readFileToString(file, StandardCharsets.UTF_8);
 			TNfeProc nfe = xmlNFeService.toObject(xml);
+			documentoService.save(new DocumentoDto(nfe.getProtNFe().getInfProt().getChNFe(), "NFe").convert());
 			logger.info(nfe.getProtNFe().getInfProt().getChNFe());
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -111,7 +117,7 @@ public class FileWatcherServiceImpl implements FileWatcherService {
 
 	@Override
 	public void onEntryModify(Path fileName) {
-		
+
 	}
 
 	@Override

@@ -31,4 +31,14 @@ public class DocumentoServiceImpl implements DocumentoService {
 
 	}
 
+	@Override
+	public Boolean save(Documento documetos) {
+		try {
+			documentoRepository.save(documetos);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
 }

@@ -62,5 +62,11 @@ public class DocumentoController {
 	public Boolean setProcessado(@RequestBody List<Documento> documentos) {
 		return documentoService.saveDocumentos(documentos);
 	}
+	
+	@RequestMapping(method = RequestMethod.POST, value = "/processado")
+	public Boolean setProcessado(@RequestBody  Documento documentos) {
+		return documentoService.save(documentos);
+	}
+
 
 }

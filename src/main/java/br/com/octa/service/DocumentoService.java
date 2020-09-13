@@ -8,4 +8,5 @@ public interface DocumentoService {
 	
 	public Documento getDocumeto(String chave);
 	public Boolean saveDocumentos(List<Documento> documetos);
+	public Boolean save(Documento documeto);
 }

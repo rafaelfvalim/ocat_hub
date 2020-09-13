@@ -897,3 +897,26 @@ COUNTER     12
 
 
 **** Error file opened at 20200912 203309 Brasilia Time Rel. 3.0.20 (2019-09-05) [721.1311]
+Error:   >Sat Sep 12 20:33:09,386<    RfcException raised by system [<unknown>]:
+	message: Connect to SAP gateway failed
+	Connection parameters: TYPE=A DESTINATION=A12 ASHOST=192.168.79.250 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.79.250:3302' not reached
+TIME        Sat Sep 12 20:33:09 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 192.168.79.250:3302
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
