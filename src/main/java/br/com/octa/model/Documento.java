@@ -1,20 +1,26 @@
 package br.com.octa.model;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
 @Data
-@Document
+@Entity
 public class Documento {
+	
 	@Id
 	private String chave;
 	private String tipo;
 	private String status;
-//	private LocalDateTime dataInclusao;
-//	private LocalDateTime dataAleracao;
-
-
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date data_criacao;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date data_alteracao;
 }

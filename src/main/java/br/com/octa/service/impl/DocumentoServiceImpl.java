@@ -19,7 +19,7 @@ public class DocumentoServiceImpl implements DocumentoService {
 
 	@Override
 	public Documento getDocumeto(String chave) {
-		return documentoRepository.findById(chave).orElse(null);
+		return documentoRepository.findByChave(chave);
 	}
 
 	@Override
@@ -34,9 +34,9 @@ public class DocumentoServiceImpl implements DocumentoService {
 	}
 
 	@Override
-	public Boolean save(Documento documetos) {
+	public Boolean save(Documento documeto) {
 		try {
-			documentoRepository.save(documetos);
+			documentoRepository.save(documeto);
 			return true;
 		} catch (Exception e) {
 			return false;

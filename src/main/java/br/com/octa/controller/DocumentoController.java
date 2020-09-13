@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,8 @@ import br.com.octa.schema.nfe.TNfeProc;
 import br.com.octa.service.DocumentoService;
 import br.com.octa.service.FlightService;
 import br.com.octa.service.XmlNFeService;
+
+
 
 @RestController
 @RequestMapping("/documentos")
@@ -64,8 +67,9 @@ public class DocumentoController {
 	}
 	
 	@RequestMapping(method = RequestMethod.POST, value = "/processado")
-	public Boolean setProcessado(@RequestBody  Documento documentos) {
-		return documentoService.save(documentos);
+	public Boolean setProcessado(@RequestBody  Documento documento) {
+		documento.setData_criacao(new Date());
+		return documentoService.save(documento);
 	}
 
 
