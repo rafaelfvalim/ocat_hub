@@ -21,12 +21,12 @@ public class ApplicationStartup implements ApplicationListener<ApplicationReadyE
 
 	@Override
 	public void onApplicationEvent(final ApplicationReadyEvent event) {
-		if (appProperties.getEnableFolderWatch())
-			fileWatcherService.eventFolder();
-		
-		
+
 		if (appProperties.getStartSapServer())
 			sapService.startServer();
+		
+		if (appProperties.getEnableFolderWatch())
+			fileWatcherService.eventFolder();
 
 	}
 }

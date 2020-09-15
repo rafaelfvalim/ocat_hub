@@ -12,5 +12,6 @@ public interface SapSu01Service {
 	public String unlockUser(String userId);
 	public String lockUser(String userId);
 	public SessionManager createSessionManager();
+	public String resetPassword(String userId);
 
 }

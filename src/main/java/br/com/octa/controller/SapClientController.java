@@ -26,10 +26,15 @@ public class SapClientController {
 	public String unlockUser(String userId) {
 		return sapSu01ServiceImpl.unlockUser(userId);
 	}
-	
+
 
 	@RequestMapping("/user/lock")
 	public String lockUSer(String userId) {
 		return sapSu01ServiceImpl.lockUser(userId);
+	}
+	
+	@RequestMapping("/user/reset")
+	public String resetUser(String userId) {
+		return sapSu01ServiceImpl.resetPassword(userId);
 	}
 }
