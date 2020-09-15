@@ -18,6 +18,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import br.com.octa.components.AppProperties;
@@ -41,6 +42,7 @@ public class FileWatcherServiceImpl implements FileWatcherService {
 	public DocumentoService documentoService;
 
 	@Override
+	@Async("fileExecutor")
 	public void eventFolder() {
 		try {
 			WatchService watcher = FileSystems.getDefault().newWatchService();

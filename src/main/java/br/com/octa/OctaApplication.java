@@ -1,6 +1,7 @@
 package br.com.octa;
 
 import java.time.Duration;
+import java.util.concurrent.Executor;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.event.EventListener;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import br.com.octa.components.SAPServiceCounter;
 import br.com.octa.model.Documento;
@@ -16,8 +19,10 @@ import io.micrometer.core.aop.TimedAspect;
 import io.micrometer.core.instrument.MeterRegistry;
 import reactor.core.publisher.Flux;
 
+
 @SpringBootApplication
 @EnableScheduling
+@EnableAsync
 public class OctaApplication {
 
 	public static void main(String[] args) {
@@ -70,6 +75,15 @@ public class OctaApplication {
 	    @Bean
 	    public TimedAspect timedAspect(MeterRegistry registry) {
 	        return new TimedAspect(registry);
+	    }
+	    
+	    @Bean(name = "fileExecutor")
+	    public Executor asyncExecutor() {
+	        final ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+	        executor.setCorePoolSize(1);
+	        executor.setMaxPoolSize(15);
+	        executor.initialize();
+	        return executor;
 	    }
 
 }

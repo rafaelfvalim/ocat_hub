@@ -15,6 +15,7 @@
       <annotated-class>br.com.octa.sap.SusrUserChangePasswordRfc</annotated-class>
       <annotated-class>br.com.octa.sap.UserUnlock</annotated-class>
       <annotated-class>br.com.octa.sap.UserLock</annotated-class>
+      <annotated-class>br.com.octa.sap.UserChangeBapi</annotated-class>
     </annotated-classes>
   </session-manager>
 </hibersap>

@@ -1,7 +1,5 @@
 package br.com.octa.model;
 
-
-
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -17,6 +15,7 @@ public class Documento {
 	
 	@Id
 	private String chave;
+	
 	private String tipo;
 	private String status;
 	@Temporal(TemporalType.TIMESTAMP)
