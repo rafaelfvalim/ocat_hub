@@ -33,7 +33,7 @@ public class SAPServiceImpl implements SAPService {
 	@Override
 	public JCoServerState getServerStatus() {
 		Server server = Server.getInstance();
-		return  server.getServerStatus();
+		return server.getServerStatus();
 	}
 
 }

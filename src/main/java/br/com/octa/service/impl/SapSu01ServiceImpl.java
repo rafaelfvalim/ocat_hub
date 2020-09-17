@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 
 import br.com.octa.form.ChangePassWordSapUserForm;
 import br.com.octa.sap.BapiRet2;
+import br.com.octa.sap.OctaResetPassword;
 import br.com.octa.sap.SusrUserChangePasswordRfc;
-import br.com.octa.sap.UserChangeBapi;
 import br.com.octa.sap.UserLock;
 import br.com.octa.sap.UserUnlock;
 import br.com.octa.service.SapSu01Service;
@@ -73,14 +73,13 @@ public class SapSu01ServiceImpl implements SapSu01Service {
 		SessionManager sessionManager = createSessionManager();
 		Session session = sessionManager.openSession();
 		try {
-			UserChangeBapi userChangeBapi = new UserChangeBapi(userId);
-			session.execute(userChangeBapi);
-			
+			OctaResetPassword resetPass = new OctaResetPassword(userId);
+			session.execute(resetPass);
 			StringBuilder ret = new StringBuilder();
-			for (br.com.octa.sap.BapiRet2 bapiret : userChangeBapi.getReturnData()) {
+			for (br.com.octa.sap.BapiRet2 bapiret : resetPass.getReturnData()) {
 				ret.append(bapiret.toString());
 			}
-			ret.append("New password:");
+			ret.append(resetPass.getNewPassword());
 			return ret.toString();
 		} finally {
 			session.close();
