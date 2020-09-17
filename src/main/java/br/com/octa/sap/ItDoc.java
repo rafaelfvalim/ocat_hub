@@ -1,5 +1,6 @@
 package br.com.octa.sap;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 import org.hibersap.annotations.BapiStructure;
@@ -14,11 +15,11 @@ public class ItDoc {
 	@Parameter("TIPO")
 	public String tipo;
 	@Parameter("QTD")
-	public int qtd;
+	public BigDecimal qtd;
 	@Parameter("DATA_DE")
 	public Date dataDe;
 	@Parameter("DATA_ATE")
-	public Date dateAte;
+	public Date dataAte;
 	
 	public  HomsoftDocCountDto getHomsoftDocCountDto( ){
 		ModelMapper mappper = new ModelMapper();

@@ -1,89 +1,187 @@
-2020-09-16 15:56:20,265 INFO o.s.b.StartupInfoLogger [main] Starting OctaApplication on DESKTOP-KN35SAR with PID 24428 (C:\Users\rafae\eclipse-workspace_java\octa\target\classes started by rafae in C:\Users\rafae\eclipse-workspace_java\octa)
-2020-09-16 15:56:20,274 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
-2020-09-16 15:56:21,178 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-09-16 15:56:21,328 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 145ms. Found 1 JPA repository interfaces.
-2020-09-16 15:56:21,866 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2020-09-16 15:56:21,874 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2020-09-16 15:56:21,874 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2020-09-16 15:56:21,874 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
-2020-09-16 15:56:21,960 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2020-09-16 15:56:21,960 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1517 ms
-2020-09-16 15:56:22,195 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
-2020-09-16 15:56:22,269 INFO o.h.j.i.u.LogHelper [scheduling-1] HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-09-16 15:56:22,311 INFO o.h.Version [scheduling-1] HHH000412: Hibernate ORM core version 5.4.20.Final
-2020-09-16 15:56:22,416 INFO o.h.a.c.r.j.JavaReflectionManager [scheduling-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-09-16 15:56:22,496 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService
-2020-09-16 15:56:22,497 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'fileExecutor'
-2020-09-16 15:56:22,509 INFO c.z.h.HikariDataSource [scheduling-1] HikariPool-1 - Starting...
-2020-09-16 15:56:22,533 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-09-16 15:56:22,725 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page template: index
-2020-09-16 15:56:23,228 INFO c.z.h.HikariDataSource [scheduling-1] HikariPool-1 - Start completed.
-2020-09-16 15:56:23,245 INFO o.h.d.Dialect [scheduling-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2020-09-16 15:56:23,924 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [scheduling-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-09-16 15:56:23,935 INFO o.s.o.j.AbstractEntityManagerFactoryBean [scheduling-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-09-16 15:56:23,957 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-16 15:56:23,958 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
-2020-09-16 15:56:23,976 INFO o.s.b.a.e.w.EndpointLinksResolver [RMI TCP Connection(4)-127.0.0.1] Exposing 15 endpoint(s) beneath base path '/actuator'
-2020-09-16 15:56:24,028 INFO o.s.w.s.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 70 ms
-2020-09-16 15:56:24,048 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2020-09-16 15:56:24,071 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2020-09-16 15:56:24,073 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
-2020-09-16 15:56:24,305 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
-2020-09-16 15:56:24,308 INFO o.s.b.StartupInfoLogger [main] Started OctaApplication in 4.334 seconds (JVM running for 5.229)
-2020-09-16 15:56:41,257 INFO o.h.c.Configuration [http-nio-8080-exec-1] Hibersap Version 1.3.0
-2020-09-16 15:56:41,378 INFO o.h.c.AnnotationConfiguration [http-nio-8080-exec-1] Mapping BAPI class br.com.octa.sap.FlightListBapi
-2020-09-16 15:56:41,390 INFO o.h.c.AnnotationConfiguration [http-nio-8080-exec-1] Mapping BAPI class br.com.octa.sap.SusrUserChangePasswordRfc
-2020-09-16 15:56:41,391 INFO o.h.c.AnnotationConfiguration [http-nio-8080-exec-1] Mapping BAPI class br.com.octa.sap.UserUnlock
-2020-09-16 15:56:41,391 INFO o.h.c.AnnotationConfiguration [http-nio-8080-exec-1] Mapping BAPI class br.com.octa.sap.UserLock
-2020-09-16 15:56:41,392 INFO o.h.c.AnnotationConfiguration [http-nio-8080-exec-1] Mapping BAPI class br.com.octa.sap.OctaResetPassword
-2020-09-16 15:56:41,393 INFO o.h.c.AnnotationConfiguration [http-nio-8080-exec-1] Mapping BAPI class br.com.octa.sap.StumWpServerActivity
-2020-09-16 15:56:41,400 INFO o.h.e.j.JCoEnvironment [http-nio-8080-exec-1] Using SAP JCo - java.library.path=C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_261/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_261/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_261/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Infrastructure\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Infrastructure\spring-boot-cli-1.0.2.RELEASE-bin\spring-1.0.2.RELEASE\bin;C:\WINDOWS\System32\OpenSSH\;C:\Bitnami\wampstack-7.1.28-0\php;C:\ProgramData\ComposerSetup\bin;C:\Infrastructure\DevPath;C:\Python27;C:\Program Files\TAP-Windows\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Cloud Foundry;C:\Users\rafae\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin;C:\Infrastructure\ngrok;C:\Users\rafae\AppData\Roaming\Composer\vendor\bin;C:\Bitnami\wampstack-7.1.28-0\php;C:\Users\rafae\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rafae\AppData\Roaming\npm;C:\Users\rafae\AppData\Local\Microsoft\WindowsApps;C:\Users\rafae\AppData\Local\Yarn\bin;C:\Infrastructure\spring-roo-2.0.0.RELEASE\bin;C:\SAP\JCo;;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.2.1\bin;;C:\Users\rafae\Desktop;;.
-2020-09-16 15:56:41,400 INFO o.h.e.j.JCoEnvironment [http-nio-8080-exec-1] Registering destination A12
-2020-09-16 15:56:41,401 INFO o.h.e.j.JCoEnvironment [http-nio-8080-exec-1] Registering DestinationDataProvider with JCo
-2020-09-16 15:56:41,495 INFO o.h.c.Configuration [http-nio-8080-exec-1] Building SessionManager 'A12'
-2020-09-16 15:56:41,497 INFO o.h.v.BeanValidationActivator [http-nio-8080-exec-1] Bean Validation will not be used because class javax.validation.Validation was not found in classpath while ValidationMode is AUTO
-2020-09-16 16:26:14,505 WARN o.s.Logger$warn [http-nio-8080-exec-7] The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-2020-09-16 16:26:14,620 WARN o.s.Logger$warn$0 [http-nio-8080-exec-7] Fragment expression "layout" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-2020-09-16 16:27:40,444 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(43)-127.0.0.1] Application shutdown requested.
-2020-09-16 16:27:40,663 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(43)-127.0.0.1] Shutting down ExecutorService 'fileExecutor'
-2020-09-16 16:27:40,664 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(43)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-09-16 16:27:40,666 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(43)-127.0.0.1] Shutting down ExecutorService 'taskScheduler'
-2020-09-16 16:27:40,666 INFO c.z.h.HikariDataSource [RMI TCP Connection(43)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2020-09-16 16:27:40,679 INFO c.z.h.HikariDataSource [RMI TCP Connection(43)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2020-09-16 16:27:40,666 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
-java.lang.InterruptedException: sleep interrupted
-	at java.lang.Thread.sleep(Native Method) ~[?:1.8.0_261]
-	at br.com.octa.BeerService.serveFirstOrder(BeerService.java:55) ~[classes/:?]
-	at br.com.octa.BeerService$$FastClassBySpringCGLIB$$89fb08c3.invoke(<generated>) ~[classes/:?]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at io.micrometer.core.aop.TimedAspect.processWithLongTaskTimer(TimedAspect.java:170) ~[micrometer-core-1.5.4.jar:1.5.4]
-	at io.micrometer.core.aop.TimedAspect.timedMethod(TimedAspect.java:99) ~[micrometer-core-1.5.4.jar:1.5.4]
-	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at br.com.octa.BeerService$$EnhancerBySpringCGLIB$$ca310334.serveFirstOrder(<generated>) ~[classes/:?]
-	at sun.reflect.GeneratedMethodAccessor102.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_261]
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_261]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_261]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_261]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_261]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_261]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+2020-09-17 17:14:58,510 INFO o.s.b.StartupInfoLogger [main] Starting OctaApplication on DESKTOP-CNB72AV with PID 24480 (C:\Users\rafae\eclipse-workspace_java\ocat_hub\target\classes started by rafaelvalim in C:\Users\rafae\eclipse-workspace_java\ocat_hub)
+2020-09-17 17:14:58,574 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-17 17:15:02,562 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-17 17:15:03,411 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 821ms. Found 2 JPA repository interfaces.
+2020-09-17 17:15:06,589 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-09-17 17:15:06,614 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-17 17:15:06,614 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-17 17:15:06,616 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-17 17:15:06,890 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-17 17:15:06,890 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7333 ms
+2020-09-17 17:15:07,848 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-09-17 17:15:08,151 INFO o.h.j.i.u.LogHelper [scheduling-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-17 17:15:08,425 INFO o.h.Version [scheduling-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-17 17:15:09,169 INFO o.h.a.c.r.j.JavaReflectionManager [scheduling-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-17 17:15:09,565 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService
+2020-09-17 17:15:09,568 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'fileExecutor'
+2020-09-17 17:15:09,641 INFO c.z.h.HikariDataSource [scheduling-1] HikariPool-1 - Starting...
+2020-09-17 17:15:09,704 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-17 17:15:10,344 INFO c.z.h.HikariDataSource [scheduling-1] HikariPool-1 - Start completed.
+2020-09-17 17:15:10,545 INFO o.h.d.Dialect [scheduling-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-09-17 17:15:14,294 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [scheduling-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-17 17:15:14,317 INFO o.s.o.j.AbstractEntityManagerFactoryBean [scheduling-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-17 17:15:14,455 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-09-17 17:15:14,543 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-17 17:15:14,705 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-17 17:15:14,708 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-17 17:15:15,066 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-17 17:15:15,069 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-10] Initializing Servlet 'dispatcherServlet'
+2020-09-17 17:15:15,828 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-17 17:15:15,840 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-10] Completed initialization in 771 ms
+2020-09-17 17:15:15,865 INFO o.s.b.StartupInfoLogger [main] Started OctaApplication in 18.678 seconds (JVM running for 21.267)
+2020-09-17 17:15:15,918 INFO b.c.o.c.Scheduler [scheduling-1] Scheduler :: getInfoHomsoft
+2020-09-17 17:15:15,956 INFO o.h.c.Configuration [scheduling-1] Hibersap Version 1.3.0
+2020-09-17 17:15:16,724 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.FlightListBapi
+2020-09-17 17:15:16,761 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.SusrUserChangePasswordRfc
+2020-09-17 17:15:16,763 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.UserUnlock
+2020-09-17 17:15:16,765 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.UserLock
+2020-09-17 17:15:16,767 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.OctaResetPassword
+2020-09-17 17:15:16,771 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.StumWpServerActivity
+2020-09-17 17:15:16,783 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.OctaCoundDoc
+2020-09-17 17:15:16,806 INFO o.h.e.j.JCoEnvironment [scheduling-1] Using SAP JCo - java.library.path=C:\Program Files\Java\jre1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files (x86)\SAP\Intelligent RPA\jre\bin\;C:\Program Files (x86)\SAP\Intelligent RPA\node\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\composer;C:\Users\rafae\AppData\Local\Microsoft\WindowsApps;C:\Users\rafae\AppData\Roaming\npm;C:\Users\rafae\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\rafae\AppData\Local\Android\Sdk\emulator;C:\Users\rafae\AppData\Local\Android\Sdk\tools;C:\Users\rafae\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\rafae\AppData\Local\Android\Sdk\platform-tools;C:\Users\rafae\AppData\Roaming\Composer\vendor\bin;C:\Infrastructure\instantclient_19_8\;C:\Infrastructure\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;;C:\Users\rafae\Desktop;;.
+2020-09-17 17:15:16,807 INFO o.h.e.j.JCoEnvironment [scheduling-1] Registering destination A12
+2020-09-17 17:15:16,807 INFO o.h.e.j.JCoEnvironment [scheduling-1] Registering DestinationDataProvider with JCo
+2020-09-17 17:15:17,391 INFO o.h.c.Configuration [scheduling-1] Building SessionManager 'A12'
+2020-09-17 17:15:17,419 INFO o.h.v.BeanValidationActivator [scheduling-1] Bean Validation will not be used because class javax.validation.Validation was not found in classpath while ValidationMode is AUTO
+2020-09-17 17:15:29,821 INFO b.c.o.c.Scheduler [scheduling-1] [EntradaDocsHomsoft(entradaDocsHomsoftId=EntradaDocsHomsoftId(tipo=CTE, dataDe=Tue Jan 01 00:00:00 BRST 2019, dataAte=Fri Mar 01 00:00:00 BRT 2019), qtd=4.000, dataUltimaMod=Thu Sep 17 17:15:22 BRT 2020), EntradaDocsHomsoft(entradaDocsHomsoftId=EntradaDocsHomsoftId(tipo=NFE, dataDe=Tue Jan 01 00:00:00 BRST 2019, dataAte=Fri Mar 01 00:00:00 BRT 2019), qtd=16.000, dataUltimaMod=Thu Sep 17 17:15:22 BRT 2020)]
+2020-09-17 17:15:36,155 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    select
+        entradadoc0_.data_ate as data_ate1_1_0_,
+        entradadoc0_.data_de as data_de2_1_0_,
+        entradadoc0_.tipo as tipo3_1_0_,
+        entradadoc0_.data_ultima_mod as data_ult4_1_0_,
+        entradadoc0_.qtd as qtd5_1_0_ 
+    from
+        entrada_docs_homsoft entradadoc0_ 
+    where
+        entradadoc0_.data_ate=? 
+        and entradadoc0_.data_de=? 
+        and entradadoc0_.tipo=?
+2020-09-17 17:15:36,200 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:36,204 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:36,206 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [VARCHAR] - [CTE]
+2020-09-17 17:15:36,250 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    select
+        entradadoc0_.data_ate as data_ate1_1_0_,
+        entradadoc0_.data_de as data_de2_1_0_,
+        entradadoc0_.tipo as tipo3_1_0_,
+        entradadoc0_.data_ultima_mod as data_ult4_1_0_,
+        entradadoc0_.qtd as qtd5_1_0_ 
+    from
+        entrada_docs_homsoft entradadoc0_ 
+    where
+        entradadoc0_.data_ate=? 
+        and entradadoc0_.data_de=? 
+        and entradadoc0_.tipo=?
+2020-09-17 17:15:36,253 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:36,253 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:36,254 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [VARCHAR] - [NFE]
+2020-09-17 17:15:36,292 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    insert 
+    into
+        entrada_docs_homsoft
+        (data_ultima_mod, qtd, data_ate, data_de, tipo) 
+    values
+        (?, ?, ?, ?, ?)
+2020-09-17 17:15:36,296 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Thu Sep 17 17:15:22 BRT 2020]
+2020-09-17 17:15:36,300 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [NUMERIC] - [4.000]
+2020-09-17 17:15:36,301 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:36,302 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [4] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:36,304 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [5] as [VARCHAR] - [CTE]
+2020-09-17 17:15:36,308 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    insert 
+    into
+        entrada_docs_homsoft
+        (data_ultima_mod, qtd, data_ate, data_de, tipo) 
+    values
+        (?, ?, ?, ?, ?)
+2020-09-17 17:15:36,312 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Thu Sep 17 17:15:22 BRT 2020]
+2020-09-17 17:15:36,312 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [NUMERIC] - [16.000]
+2020-09-17 17:15:36,313 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:36,314 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [4] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:36,314 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [5] as [VARCHAR] - [NFE]
+2020-09-17 17:15:36,325 INFO b.c.o.c.Scheduler [scheduling-1] Scheduler :: getInfoHomsoft
+2020-09-17 17:15:36,342 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.FlightListBapi
+2020-09-17 17:15:36,342 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.SusrUserChangePasswordRfc
+2020-09-17 17:15:36,343 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.UserUnlock
+2020-09-17 17:15:36,343 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.UserLock
+2020-09-17 17:15:36,344 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.OctaResetPassword
+2020-09-17 17:15:36,344 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.StumWpServerActivity
+2020-09-17 17:15:36,345 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.OctaCoundDoc
+2020-09-17 17:15:36,346 INFO o.h.e.j.JCoEnvironment [scheduling-1] Registering destination A12
+2020-09-17 17:15:36,346 INFO o.h.c.Configuration [scheduling-1] Building SessionManager 'A12'
+2020-09-17 17:15:36,347 INFO o.h.v.BeanValidationActivator [scheduling-1] Bean Validation will not be used because class javax.validation.Validation was not found in classpath while ValidationMode is AUTO
+2020-09-17 17:15:45,873 INFO b.c.o.c.Scheduler [scheduling-1] [EntradaDocsHomsoft(entradaDocsHomsoftId=EntradaDocsHomsoftId(tipo=CTE, dataDe=Tue Jan 01 00:00:00 BRST 2019, dataAte=Fri Mar 01 00:00:00 BRT 2019), qtd=4.000, dataUltimaMod=Thu Sep 17 17:15:42 BRT 2020), EntradaDocsHomsoft(entradaDocsHomsoftId=EntradaDocsHomsoftId(tipo=NFE, dataDe=Tue Jan 01 00:00:00 BRST 2019, dataAte=Fri Mar 01 00:00:00 BRT 2019), qtd=16.000, dataUltimaMod=Thu Sep 17 17:15:42 BRT 2020)]
+2020-09-17 17:15:55,464 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    select
+        entradadoc0_.data_ate as data_ate1_1_0_,
+        entradadoc0_.data_de as data_de2_1_0_,
+        entradadoc0_.tipo as tipo3_1_0_,
+        entradadoc0_.data_ultima_mod as data_ult4_1_0_,
+        entradadoc0_.qtd as qtd5_1_0_ 
+    from
+        entrada_docs_homsoft entradadoc0_ 
+    where
+        entradadoc0_.data_ate=? 
+        and entradadoc0_.data_de=? 
+        and entradadoc0_.tipo=?
+2020-09-17 17:15:55,491 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:55,511 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:55,524 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [VARCHAR] - [CTE]
+2020-09-17 17:15:56,033 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    select
+        entradadoc0_.data_ate as data_ate1_1_0_,
+        entradadoc0_.data_de as data_de2_1_0_,
+        entradadoc0_.tipo as tipo3_1_0_,
+        entradadoc0_.data_ultima_mod as data_ult4_1_0_,
+        entradadoc0_.qtd as qtd5_1_0_ 
+    from
+        entrada_docs_homsoft entradadoc0_ 
+    where
+        entradadoc0_.data_ate=? 
+        and entradadoc0_.data_de=? 
+        and entradadoc0_.tipo=?
+2020-09-17 17:15:56,056 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:56,073 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:56,087 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [VARCHAR] - [NFE]
+2020-09-17 17:15:56,202 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    update
+        entrada_docs_homsoft 
+    set
+        data_ultima_mod=?,
+        qtd=? 
+    where
+        data_ate=? 
+        and data_de=? 
+        and tipo=?
+2020-09-17 17:15:56,221 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Thu Sep 17 17:15:42 BRT 2020]
+2020-09-17 17:15:56,237 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [NUMERIC] - [4.000]
+2020-09-17 17:15:56,245 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:56,258 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [4] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:56,268 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [5] as [VARCHAR] - [CTE]
+2020-09-17 17:15:56,320 DEBUG o.h.e.j.s.SqlStatementLogger [scheduling-1] 
+    update
+        entrada_docs_homsoft 
+    set
+        data_ultima_mod=?,
+        qtd=? 
+    where
+        data_ate=? 
+        and data_de=? 
+        and tipo=?
+2020-09-17 17:15:56,336 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [1] as [TIMESTAMP] - [Thu Sep 17 17:15:42 BRT 2020]
+2020-09-17 17:15:56,350 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [2] as [NUMERIC] - [16.000]
+2020-09-17 17:15:56,363 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [3] as [TIMESTAMP] - [Fri Mar 01 00:00:00 BRT 2019]
+2020-09-17 17:15:56,376 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [4] as [TIMESTAMP] - [Tue Jan 01 00:00:00 BRST 2019]
+2020-09-17 17:15:56,388 TRACE o.h.t.d.s.BasicBinder [scheduling-1] binding parameter [5] as [VARCHAR] - [NFE]
+2020-09-17 17:15:59,835 INFO b.c.o.c.Scheduler [scheduling-1] Scheduler :: getInfoHomsoft
+2020-09-17 17:15:59,869 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.FlightListBapi
+2020-09-17 17:15:59,869 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.SusrUserChangePasswordRfc
+2020-09-17 17:15:59,870 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.UserUnlock
+2020-09-17 17:15:59,871 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.UserLock
+2020-09-17 17:15:59,871 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.OctaResetPassword
+2020-09-17 17:15:59,872 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.StumWpServerActivity
+2020-09-17 17:15:59,872 INFO o.h.c.AnnotationConfiguration [scheduling-1] Mapping BAPI class br.com.octa.sap.OctaCoundDoc
+2020-09-17 17:15:59,873 INFO o.h.e.j.JCoEnvironment [scheduling-1] Registering destination A12
+2020-09-17 17:15:59,873 INFO o.h.c.Configuration [scheduling-1] Building SessionManager 'A12'
+2020-09-17 17:15:59,875 INFO o.h.v.BeanValidationActivator [scheduling-1] Bean Validation will not be used because class javax.validation.Validation was not found in classpath while ValidationMode is AUTO

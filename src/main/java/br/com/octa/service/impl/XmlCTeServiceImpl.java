@@ -26,7 +26,6 @@ public class XmlCTeServiceImpl implements XmlCteService {
 			JAXBElement<CteProc > element = (JAXBElement<CteProc>) unmarshaller.unmarshal(new StringReader(xml));
 			return element.getValue();
 		} catch (Exception e) {
-			// TODO: handle exception
 			e.printStackTrace();
 		}
 		return null;

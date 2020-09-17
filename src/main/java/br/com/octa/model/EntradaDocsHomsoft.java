@@ -1,10 +1,10 @@
 package br.com.octa.model;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
 
 import br.com.octa.sap.dto.HomsoftDocCountDto;
 import lombok.Data;
@@ -12,21 +12,22 @@ import lombok.Data;
 @Data
 @Entity
 public class EntradaDocsHomsoft {
-	@Id
-	@GeneratedValue
-	public Long id;
-	public String tipo;
-	public int qtd;
-	public Date dataDe;
-	public Date dateAte;
+   
+	@EmbeddedId
+	public EntradaDocsHomsoftId entradaDocsHomsoftId;
+	
+	public BigDecimal qtd;
+	
+	public Date dataUltimaMod;
 
 	public EntradaDocsHomsoft() {
 	}
 
 	public EntradaDocsHomsoft(HomsoftDocCountDto dto) {
-		this.tipo = dto.tipo;
+		this.entradaDocsHomsoftId = new EntradaDocsHomsoftId(dto.tipo, dto.dataDe, dto.dataAte);
 		this.qtd = dto.qtd;
-		this.dataDe = dto.dataDe;
-		this.dateAte = dto.dateAte;
+		this.dataUltimaMod = new Date();
 	}
+	
+
 }

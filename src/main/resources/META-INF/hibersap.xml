@@ -17,6 +17,7 @@
       <annotated-class>br.com.octa.sap.UserLock</annotated-class>
       <annotated-class>br.com.octa.sap.OctaResetPassword</annotated-class>
       <annotated-class>br.com.octa.sap.StumWpServerActivity</annotated-class>
+      <annotated-class>br.com.octa.sap.OctaCoundDoc</annotated-class>
     </annotated-classes>
   </session-manager>
 </hibersap>

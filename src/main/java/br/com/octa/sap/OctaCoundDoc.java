@@ -18,7 +18,7 @@ public class OctaCoundDoc {
 	@Parameter("DATA_DE")
 	public Date dateDe;
 	@Import
-	@Parameter("DATA_DE")
+	@Parameter("DATA_ATE")
 	public Date dateAte;
 	@Export
 	@Parameter( value = "IT_DOC",  type = ParameterType.TABLE_STRUCTURE)

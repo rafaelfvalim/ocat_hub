@@ -1,16 +1,19 @@
 package br.com.octa.teste;
 
+import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.hibersap.bapi.BapiRet2;
 import org.hibersap.configuration.AnnotationConfiguration;
 import org.hibersap.session.Session;
 import org.hibersap.session.SessionManager;
 
+import br.com.octa.helper.DateHelper;
 import br.com.octa.sap.Flight;
 import br.com.octa.sap.FlightListBapi;
-import br.com.octa.sap.StumWpServerActivity;
-import br.com.octa.sap.WpInfo;
+import br.com.octa.sap.OctaCoundDoc;
+import br.com.octa.sap.dto.HomsoftDocCountDto;
 
 public class Main {
 
@@ -41,18 +44,18 @@ public class Main {
 
 		try {
 			
-			StumWpServerActivity info =  new StumWpServerActivity();
+			OctaCoundDoc info =  new OctaCoundDoc();
+			info.setDateDe(new Date());
+			info.setDateAte(new Date());
 			session.execute(info);
 			
-			 List<WpInfo> list = info.getWpInfo();
-			 for (WpInfo wpInfo : list) {
-				 System.out.println(wpInfo.toString());
-			}
-			
+			info.getItDoc().stream().map(HomsoftDocCountDto::new).collect(Collectors.toList());
 
 		} finally {
 			session.close();
 		}
+		
+	
 	}
 	
 	
@@ -90,7 +93,8 @@ public class Main {
      
 	public static void main(String[] args) {
 		
-		new Main().teste();
+		System.out.println(DateHelper.toDate("06.06.2019").toString());
+//		new Main().teste();
 //		Server server = Server.getInstance();
 //		server.start();
 //		
