@@ -21,20 +21,21 @@ public class SapClientController {
 		return sapSu01ServiceImpl.changePassword(form);
 	}
 	
-	
 	@RequestMapping("/user/unlock")
 	public String unlockUser(String userId) {
+		System.out.println("Nome de usuário:"+userId);
 		return sapSu01ServiceImpl.unlockUser(userId);
 	}
 
-
 	@RequestMapping("/user/lock")
-	public String lockUSer(String userId) {
+	public String lockUser(String userId) {
+		System.out.println("Nome de usuário:"+userId);
 		return sapSu01ServiceImpl.lockUser(userId);
 	}
 	
-	@RequestMapping("/user/reset")
+	@RequestMapping("/user/resetpassword")
 	public String resetUser(String userId) {
+		System.out.println("Nome de usuário:"+userId);
 		return sapSu01ServiceImpl.resetPassword(userId);
 	}
 }

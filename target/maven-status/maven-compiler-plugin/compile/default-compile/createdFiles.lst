@@ -70,6 +70,7 @@ br\inf\portalfiscal\cte\TCTe$InfCte$Compl$Entrega$NoInter.class
 br\com\octa\schema\cte\TCTe$InfCte$Ide$Toma4.class
 br\com\octa\schema\cte\TCTeOS$InfCte$VPrest$Comp.class
 br\com\octa\schema\nfe\TNFe$InfNFe$InfAdic$ObsFisco.class
+br\com\octa\service\SAPServerInformation.class
 br\com\octa\schema\nfe\TProtNFe$InfProt.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$Imposto$COFINS$COFINSQtde.class
 br\inf\portalfiscal\cte\TImpOS$ICMS45.class
@@ -115,6 +116,7 @@ br\inf\portalfiscal\cte\TImp$ICMS45.class
 br\com\octa\schema\cte\SignedInfoType$CanonicalizationMethod.class
 br\com\octa\service\XmlCteService.class
 br\inf\portalfiscal\cte\TUnidCarga$LacUnidCarga.class
+br\com\octa\sap\StumWpServerActivity.class
 org\w3\_2000\_09\xmldsig_\TransformType.class
 br\com\octa\schema\nfe\TEnderEmi.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Total.class
@@ -132,6 +134,7 @@ br\com\octa\schema\cte\SignedInfoType.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$Imposto$ICMS$ICMS00.class
 br\com\octa\schema\cte\TRetEvento$InfEvento.class
 br\inf\portalfiscal\cte\TCTeOS$InfCte$InfCTeNorm$InfCteSub$TomaICMS$RefNF.class
+br\com\octa\controller\DashboardController.class
 br\com\octa\schema\cte\TCTe$InfCte$InfCTeNorm$DocAnt$EmiDocAnt$IdDocAnt$IdDocAntEle.class
 br\com\octa\schema\cte\TCTe$InfCte$InfCTeNorm$InfCteSub.class
 br\com\octa\schema\cte\TUnidadeTransp.class
@@ -182,6 +185,7 @@ br\com\octa\service\impl\XmlNFSeServiceImpl.class
 br\com\octa\schema\cte\TCTe$InfCte$Compl.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$Imposto$II.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$Imposto$PIS$PISAliq.class
+br\com\octa\controller\SapServerInfoController.class
 br\com\octa\schema\cte\SignedInfoType$SignatureMethod.class
 br\com\octa\schema\nfe\TRetEnviNFe.class
 br\com\octa\schema\nfe\TNFe$InfNFe$AutXML.class
@@ -203,6 +207,7 @@ br\com\octa\schema\cte\TImpOS$ICMS45.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Dest.class
 br\inf\portalfiscal\cte\TCTeOS$InfCte$InfCTeNorm$InfModal.class
 br\inf\portalfiscal\cte\TCTe$InfCte$InfCTeNorm$Cobr$Dup.class
+br\com\octa\service\impl\SAPServerInformationImpl.class
 br\com\octa\service\impl\XmlNFeServiceImpl.class
 br\com\octa\sap\server\Server$KTTSendConsNfeDestWsFunctionHandler.class
 br\inf\portalfiscal\cte\TCTe$InfCte$Compl.class
@@ -219,6 +224,7 @@ br\com\octa\schema\cte\TCTe$InfCte$Compl$ObsCont.class
 br\inf\portalfiscal\cte\TLocal.class
 br\com\octa\schema\nfe\TUf.class
 br\inf\portalfiscal\cte\TCTe$InfCte$Compl$ObsFisco.class
+br\com\octa\sap\dto\WpInfoDto.class
 br\com\octa\schema\nfe\TransformsType.class
 br\com\octa\schema\cte\TCTe$InfCte$Imp.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$Imposto$COFINS$COFINSAliq.class
@@ -231,6 +237,7 @@ br\com\octa\schema\nfe\SignedInfoType$SignatureMethod.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Compra.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$Imposto$ICMS$ICMSSN202.class
 br\com\octa\schema\cte\TImpOS$ICMS00.class
+br\com\octa\controller\SapUserServicesController.class
 org\w3\_2000\_09\xmldsig_\KeyInfoType.class
 br\com\octa\schema\cte\TEndeEmi.class
 org\w3\_2000\_09\xmldsig_\package-info.class
@@ -249,13 +256,13 @@ br\com\octa\schema\cte\TImp$ICMS45.class
 br\inf\portalfiscal\cte\TCTe$InfCte$Emit.class
 br\com\octa\schema\cte\TProtCTe$InfFisco.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Avulsa.class
-br\com\octa\controller\TableElements.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Emit.class
 br\com\octa\schema\cte\TCTe$InfCte$InfCteAnu.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Ide.class
 br\com\octa\schema\cte\TCTe$InfCte$InfCTeNorm$InfDoc.class
 br\inf\portalfiscal\cte\TCTeOS$InfCte$InfCteAnu.class
 br\inf\portalfiscal\cte\TImpOS$ICMSSN.class
+br\com\octa\sap\WpInfo.class
 org\w3\_2000\_09\xmldsig_\SignedInfoType$SignatureMethod.class
 br\inf\portalfiscal\cte\TImp$ICMS20.class
 br\com\octa\schema\cte\TCTe$InfCte$InfCTeNorm$InfCteSub$TomaICMS.class
@@ -271,6 +278,7 @@ br\com\octa\schema\nfe\TNFe$InfNFe$Transp$RetTransp.class
 br\inf\portalfiscal\cte\TImpOS$ICMS90.class
 br\com\octa\schema\cte\TCTe$InfCte$Emit.class
 br\inf\portalfiscal\cte\TImp$ICMS60.class
+br\com\octa\sap\dto\StumWpServerActivityDto.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Cobr.class
 br\com\octa\schema\nfe\TNFe$InfNFe$InfAdic.class
 br\inf\portalfiscal\cte\TCTeOS$InfCte$InfCTeNorm$Cobr.class
@@ -287,12 +295,14 @@ br\com\octa\schema\nfe\TNFe$InfNFe$Det$Imposto$ICMS$ICMS70.class
 br\com\octa\controller\IndexController.class
 br\com\octa\sap\server\EasterEgg.class
 br\inf\portalfiscal\cte\TUFSemEX.class
+br\com\octa\helper\PasswordGeneratorHelper$1.class
 br\com\octa\sap\UserUnlock.class
 br\inf\portalfiscal\cte\TCTe$InfCte$Ide.class
 br\inf\portalfiscal\cte\TCTe$InfCte$VPrest.class
 br\com\octa\Orden.class
 br\com\octa\schema\cte\TransformType.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Transp.class
+br\com\octa\helper\PasswordGeneratorHelper$PasswordGeneratorBuilder.class
 br\com\octa\schema\cte\TImpOS$ICMSOutraUF.class
 br\com\octa\schema\cte\TCTe$InfCte$Dest.class
 br\inf\portalfiscal\cte\TCTe$InfCte$Compl$Entrega$ComData.class
@@ -322,6 +332,7 @@ br\com\octa\schema\nfe\TransformType.class
 br\inf\portalfiscal\cte\TCTe$InfCte$InfCTeNorm$InfDoc.class
 br\com\octa\schema\cte\TRetCTeOS.class
 br\com\octa\schema\nfe\SignedInfoType$CanonicalizationMethod.class
+br\com\octa\sap\OctaResetPassword.class
 br\inf\portalfiscal\cte\TCTe$InfCte$Rem.class
 br\com\octa\schema\cte\TProtCTeOS$InfFisco.class
 br\inf\portalfiscal\cte\TCTe$InfCte$Imp$ICMSUFFim.class
@@ -352,6 +363,7 @@ br\inf\portalfiscal\cte\TEndReEnt.class
 br\com\octa\service\impl\SapSu01ServiceImpl.class
 br\inf\portalfiscal\cte\TCTeOS$InfCte$InfCTeNorm$InfCteSub$TomaICMS.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$Prod$Comb$Encerrante.class
+br\com\octa\helper\PasswordGeneratorHelper.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Transp$Vol$Lacres.class
 br\com\octa\schema\nfe\TNFe$InfNFe$Det$ImpostoDevol.class
 br\com\octa\schema\cte\TCTe$InfCte$Compl$Entrega$SemData.class

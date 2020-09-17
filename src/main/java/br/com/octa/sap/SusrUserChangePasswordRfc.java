@@ -20,15 +20,6 @@ public class SusrUserChangePasswordRfc {
 	@Import
 	@Parameter("NEW_PASSWORD")
 	private final String newPassword;
-//	@Import
-//	@Parameter("NEW_BCODE")
-//	private final String newBcode;
-//	@Import
-//	@Parameter("NEW_CODVN")
-//	private final String newCodvn;
-//	@Import
-//	@Parameter("USE_NEW_EXCEPTION")
-//	private final Integer useNewExecption;
 	@Import
 	@Parameter("USE_BAPI_RETURN")
 	private final Integer useBapiReturn;
@@ -51,9 +42,6 @@ public class SusrUserChangePasswordRfc {
 		this.bname = bname;
 		this.password = password;
 		this.newPassword = newPassword;
-//		this.newBcode = newBcode;
-//		this.newCodvn = newCodvn;
-//		this.useNewExecption = useNewExecption;
 		this.useBapiReturn = useBapiReturn;
 	}
 

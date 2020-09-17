@@ -9,6 +9,8 @@ import org.hibersap.session.SessionManager;
 
 import br.com.octa.sap.Flight;
 import br.com.octa.sap.FlightListBapi;
+import br.com.octa.sap.StumWpServerActivity;
+import br.com.octa.sap.WpInfo;
 
 public class Main {
 
@@ -17,6 +19,9 @@ public class Main {
 		return configuration.buildSessionManager();
 	}
 
+	
+	
+	
 	public void showFlightList() {
 
 		SessionManager sessionManager = createSessionManager();
@@ -29,6 +34,29 @@ public class Main {
 			session.close();
 		}
 	}
+	
+	public void teste() {
+		SessionManager sessionManager = createSessionManager();
+		Session session = sessionManager.openSession();
+
+		try {
+			
+			StumWpServerActivity info =  new StumWpServerActivity();
+			session.execute(info);
+			
+			 List<WpInfo> list = info.getWpInfo();
+			 for (WpInfo wpInfo : list) {
+				 System.out.println(wpInfo.toString());
+			}
+			
+
+		} finally {
+			session.close();
+		}
+	}
+	
+	
+	
 
 	private void showResult(FlightListBapi flightList) {
 
@@ -62,7 +90,7 @@ public class Main {
      
 	public static void main(String[] args) {
 		
-		new Main().showFlightList();
+		new Main().teste();
 //		Server server = Server.getInstance();
 //		server.start();
 //		

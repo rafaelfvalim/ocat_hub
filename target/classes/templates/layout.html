@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Octa Hub</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+       <link rel="stylesheet" href="vendor/@fortawesome/fontawesome-free/css/brands.css}">
+   <link rel="stylesheet"th:href="@{/vendor/@fortawesome/fontawesome-free/css/regular.css}">
+   <link rel="stylesheet" th:href="@{/vendor/@fortawesome/fontawesome-free/css/solid.css}">
+   <link rel="stylesheet" th:href="@{/vendor/@fortawesome/fontawesome-free/css/fontawesome.css}"><!-- SIMPLE LINE ICONS-->
+   <link rel="stylesheet" th:href="@{/vendor/simple-line-icons/css/simple-line-icons.css}"><!-- ANIMATE.CSS-->
+   <link rel="stylesheet" th:href="@{/vendor/animate.css/animate.css}"><!-- WHIRL (spinners)-->
+   <link rel="stylesheet" th:href="@{/vendor/whirl/dist/whirl.css}">
+<!-- =============== PAGE VENDOR STYLES ===============-->
+<!-- WEATHER ICONS-->
+   <link rel="stylesheet" th:href="@{/vendor/weather-icons/css/weather-icons.css}"><!-- =============== BOOTSTRAP STYLES ===============-->
+   <link rel="stylesheet" th:href="@{/css/bootstrap.css}" id="bscss"><!-- =============== APP STYLES ===============-->
+   <link rel="stylesheet" th:href="@{/css/app.css}" id="maincss}">
+    
+    
+</head>
+<body>
+   <div class="wrapper">
+   	<div th:insert="_header :: header" ></div>
+   	<div th:insert="_sidebar :: sidebar" ></div>
+   	<div th:insert="_offsidebar :: offsidebar" ></div>
+	<div class="content-wrapper" layout:fragment="content">
+                Content is Here!
+     </div>
+	</div>  	
+   <div th:insert="_footer :: footer" ></div>
+</body>
+</html>
